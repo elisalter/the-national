@@ -7,11 +7,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <img src="https://undercoverpics.files.wordpress.com/2016/06/the_national_03.jpg" className="App-logo" alt="logo" />
+          <h1 className="App-title">American Mary</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Here's an app dedicated to my favourite band, The National.
         </p>
       </div>
     );
