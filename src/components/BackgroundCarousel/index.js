@@ -23,7 +23,7 @@ export default function BackgroundCarousel() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
   };
   return (
