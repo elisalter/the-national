@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import BackgroundCarousel from '../BackgroundCarousel';
-// import css from './App.css';
+import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <div>THE NATIONAL</div>
+      <div className="App">
         <BackgroundCarousel />
+        <div className="Heading">THE NATIONAL</div>
       </div>
     );
   }

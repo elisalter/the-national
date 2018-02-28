@@ -1,1 +1,17 @@
+.App {
+  overflow: hidden;
+}
 
+.Heading {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-family: 'PT Mono';
+  color: white;
+  font-size: 30px;
+  transition: color 1s ease;
+}
+
+.Heading:hover {
+  color: black;
+}

@@ -18,9 +18,9 @@ import '../../../node_modules/slick-carousel/slick/slick-theme.css';
 
 export default function BackgroundCarousel() {
   const settings = {
-    autoplay: true,
-    autoplaySpeed: 1000,
-    dots: false,
+    autoplay: false,
+    autoplaySpeed: 1500,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
