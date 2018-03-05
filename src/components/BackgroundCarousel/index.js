@@ -14,15 +14,15 @@ import virginiaEp from '../../images/albums/the_virginia_ep.jpg';
 
 import '../../../node_modules/slick-carousel/slick/slick.css';
 import '../../../node_modules/slick-carousel/slick/slick-theme.css';
-// import './style.scss';
+import './style.css';
 
 export default function BackgroundCarousel() {
   const settings = {
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 3000,
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,

@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import BackgroundCarousel from '../BackgroundCarousel';
-// import css from './App.css';
+import PageBody from '../PageBody';
+import './style.css';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <div>THE NATIONAL</div>
         <BackgroundCarousel />
+        <PageBody />
+        <div className="Heading">THE NATIONAL</div>
       </div>
     );
   }
