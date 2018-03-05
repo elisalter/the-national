@@ -7,6 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div>THE NATIONAL</div>
         <BackgroundCarousel />
         <PageBody />
         <div className="Heading">THE NATIONAL</div>

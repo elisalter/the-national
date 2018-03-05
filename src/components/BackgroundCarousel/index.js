@@ -20,7 +20,7 @@ export default function BackgroundCarousel() {
   const settings = {
     autoplay: true,
     autoplaySpeed: 3000,
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 800,
     slidesToShow: 1,
